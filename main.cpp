@@ -11,7 +11,7 @@ int main() {
    
    cout<<x2<<endl;
    
-   for(int i=3; i<=n; i++){
+   for(int i=0; i<=n-1; i++){
         cout<<xf<<endl;
         x1=x2;
         x2=xf;
