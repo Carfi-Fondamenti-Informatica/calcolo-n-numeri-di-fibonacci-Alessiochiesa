@@ -9,7 +9,6 @@ int main() {
   
    cout<<"1"<<endl;
    
-   cout<<x2<<endl;
    
    for(int i=0; i<=n-1; i++){
         cout<<xf<<endl;
