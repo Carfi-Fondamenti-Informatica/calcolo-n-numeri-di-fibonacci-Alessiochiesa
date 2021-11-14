@@ -1,18 +1,29 @@
 #include <iostream>
 using namespace std;
 
-int main() {
-
-    int n=0, x=0, y=1, z=x+y;
+int main()
+{
+    int n,i=1,b=1,a=0,c;
     cin>>n;
-    cout<<"1"<<endl;
 
-    for(int i=0; i<(n-1); i++){
-      z=x+y;
-      x=y;
-      y=z;
-      cout<<z<<endl;
+    if(n>=2)
+    {
+        cout<<b<<endl;
+        for(i=2;i<=n;i++)
+        {
+         c=a+b;
+         cout<<c<<endl;
+         a=b;
+         b=c;
+
+        }
+
 
     }
+    else
+    {
+        cout<<"errore"<<endl;
+    }
+
+
     return 0;
-}
